@@ -1,0 +1,99 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:src="clr-namespace:CWBWeather.ViewModel"
+    xmlns:views="clr-namespace:CWBWeather.View"
+    x:Class="CWBWeather.PanoramaPage1" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <src:MainPageViewModel x:Key="MainPage"/>
+        <src:BackgroundImageConverter x:Key="BackgroundImageConverter"/>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--Panorama 應用程式不應該顯示 ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBar.Buttons>
+                <shell:ApplicationBarIconButton IconUri="/Image/AppBar/location.png" Click="LocationButtonClick" Text="定位我的位置"></shell:ApplicationBarIconButton>
+            </shell:ApplicationBar.Buttons>
+            
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="selectCity" Text="選擇地點" Click="OnSelectCity"/>
+                <shell:ApplicationBarMenuItem Text="設定" Click="OnSetting"/>
+                <shell:ApplicationBarMenuItem Text="關於 晴時多雲偶陣雨..." Click="OnAbout"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <!--LayoutRoot 包含放置所有其他頁面的根資料格-->
+    <Grid x:Name="MainPageLayoutRoot" d:DataContext="{Binding Source={StaticResource MainPage}}">
+        <Grid.Background>
+            <ImageBrush x:Name="MainPageLayoutBackground" ImageSource="{Binding BackgroundImage, Converter={StaticResource BackgroundImageConverter}}" Stretch="UniformToFill"/>
+        </Grid.Background>
+        
+        <controls:Pivot>
+            <controls:Pivot.Title>
+                <Grid>
+                    <ProgressBar IsIndeterminate="{Binding IsLoading}" Foreground="White" Margin="0,-60,0,0" Visibility="{Binding IsLoading}" />
+                    <StackPanel Orientation="Horizontal" Margin="-30,-10,0,12" HorizontalAlignment="Center">
+                        <TextBlock FontSize="24" Text="{Binding ForecastCity.Name}" Margin="0,0,10,0" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                        <TextBlock FontSize="24" Text="{Binding ForecastTown.Name}" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                    </StackPanel>
+                </Grid>
+            </controls:Pivot.Title>
+
+            <!--<controls:Pivot.Background x:Name="PhoneApplicationBackgroundImage">
+                <ImageBrush ImageSource="{Binding Path=BackgroundImage}" Stretch="Fill"/>
+            </controls:Pivot.Background>-->
+
+            <controls:PivotItem x:Name="ForecastViewPanel">
+                <controls:PivotItem.Header>
+                    <TextBlock x:Name="FirstPivot" FontSize="42" Text="{Binding DateText}" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                </controls:PivotItem.Header>
+                
+                <views:ForecastView x:Name="ForecastViewOnPage" />
+            </controls:PivotItem>
+
+            <controls:PivotItem>
+                <controls:PivotItem.Header>
+                    <TextBlock x:Name="Header2" FontSize="42" Text="一週天氣" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                </controls:PivotItem.Header>
+                
+                <views:WeekDayView x:Name="WeekDayViewOnPage" />
+                <!--<Grid>
+                    <ScrollViewer>
+                        <ItemsControl x:Name="WeekdatForcastList">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+
+                                    <StackPanel Orientation="Vertical">
+                                        <Grid>
+                                            <Rectangle Grid.Row="0" Grid.Column="0" Fill="Chartreuse" Width="100" Height="100" />
+                                            <TextBlock Grid.Row="0" Grid.Column="0" Text="溫度"  Width="100" Height="100" TextAlignment="Center" Padding="0,30,0,0" />
+                                            <Rectangle Grid.Row="1" Grid.Column="0" Fill="Chartreuse" Width="100" Height="100" />
+                                            <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding temperature}"   Width="100" Height="100" TextAlignment="Center" />
+                                        </Grid>
+                                        <TextBlock Text="{Binding weatherDes}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Grid>-->
+            </controls:PivotItem>
+            
+        </controls:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

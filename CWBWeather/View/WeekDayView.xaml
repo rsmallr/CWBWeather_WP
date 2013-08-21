@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="CWBWeather.View.WeekDayView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:src="clr-namespace:CWBWeather.ViewModel"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="800" d:DesignWidth="480">
+
+    <UserControl.Resources>
+        <src:WeekdayTimeConverter x:Key="WeekdayTimeConverter"/>
+        <src:MaxTConverter x:Key="MaxTConverter"/>
+        <src:IconConverter x:Key="IconConverter"/>
+        <src:RainConverter x:Key="RainConverter"/>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Margin="-12,-25,-12,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <!--<RowDefinition Height="*"/>-->
+        </Grid.RowDefinitions>
+        
+        <vc:Chart Grid.Row="0" x:Name="WeekDayTemperatureChart" xmlns:vc="clr-namespace:Visifire.Charts;assembly=SLWpVisifire.Charts"
+                              ScrollingEnabled="false" BorderThickness="0" IndicatorEnabled="True" Background="#33000000" Padding="6,12,6,6">
+
+            <vc:Chart.PlotArea>
+                <vc:PlotArea ShadowEnabled="False"/>
+            </vc:Chart.PlotArea>
+
+            <vc:Chart.Legends>
+                <vc:Legend ShadowEnabled="False" BorderThickness="0" Background="#33000000" />
+            </vc:Chart.Legends>
+
+            <vc:Chart.AxesX>
+                <vc:Axis ValueFormatString="ddd" IntervalType="Days" Interval="1">
+                    <vc:Axis.AxisLabels>
+                        <vc:AxisLabels Angle="0" Rows="1" FontSize="14"></vc:AxisLabels>
+                    </vc:Axis.AxisLabels>
+                </vc:Axis>
+            </vc:Chart.AxesX>
+
+            <vc:Chart.AxesY>
+                <vc:Axis Interval="5" StartFromZero="False">
+                    <vc:Axis.Grids>
+                        <vc:ChartGrid LineStyle="Dashed" LineColor="White" LineThickness="1" />
+                    </vc:Axis.Grids>
+                </vc:Axis>
+            </vc:Chart.AxesY>
+
+            <vc:Chart.Series>
+                <vc:DataSeries RenderAs="Line" MarkerSize="20" ShadowEnabled="False"
+                                           XValueType="Date"  XValueFormatString="M/d HH:mm" 
+                                           ToolTipText="#YValue" LineThickness="5"
+                                           DataSource="{Binding WeekdayForecastItemsSource}" LegendText="低溫">
+                    <vc:DataSeries.DataMappings>
+                        <vc:DataMapping MemberName="XValue" Path="Time"></vc:DataMapping>
+                        <vc:DataMapping MemberName="YValue" Path="MinT"></vc:DataMapping>
+                    </vc:DataSeries.DataMappings>
+                </vc:DataSeries>
+
+                <vc:DataSeries RenderAs="Line" MarkerSize="20" ShadowEnabled="False"
+                                           XValueType="Date"  XValueFormatString="M/d HH:mm" 
+                                           ToolTipText="#YValue" LineThickness="5"
+                                           DataSource="{Binding WeekdayForecastItemsSource}" LegendText="高溫">
+                    <vc:DataSeries.DataMappings>
+                        <vc:DataMapping MemberName="XValue" Path="Time"></vc:DataMapping>
+                        <vc:DataMapping MemberName="YValue" Path="MaxT"></vc:DataMapping>
+                    </vc:DataSeries.DataMappings>
+                </vc:DataSeries>
+
+                <!--<vc:DataSeries RenderAs="Line" MarkerSize="20" ShadowEnabled="False"
+                                           XValueType="DateTime"  XValueFormatString="M/d HH:mm" 
+                                           ToolTipText="#YValue" LineThickness="5"
+                                           DataSource="{Binding WeekdayForecastItemsSource}" LegendText="降雨機率">
+                    <vc:DataSeries.DataMappings>
+                        <vc:DataMapping MemberName="XValue" Path="Time"></vc:DataMapping>
+                        <vc:DataMapping MemberName="YValue" Path="Rain"></vc:DataMapping>
+                    </vc:DataSeries.DataMappings>
+                </vc:DataSeries>-->
+            </vc:Chart.Series>
+        </vc:Chart>
+
+        <ListBox Grid.Row="1" ItemsSource="{Binding WeekdayForecastItemsSource}" Background="#33000000" Padding="12,0"
+                 ScrollViewer.VerticalScrollBarVisibility="Disabled">
+            
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,0,0,6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="75"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" FontSize="24" Text="{Binding Time, Converter={StaticResource WeekdayTimeConverter}}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Image Source="{Binding WeatherIcon, Converter={StaticResource IconConverter}}" Width="64" />
+                            <!--<TextBlock FontSize="12" HorizontalAlignment="Center" Text="{Binding Wx}" />-->
+                            <!--<TextBlock FontSize="12" HorizontalAlignment="Center" Text="{Binding WeatherIcon}" />-->
+                        </StackPanel>
+                        <TextBlock Grid.Column="2" FontSize="24" Text="{Binding MinT}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                        <TextBlock Grid.Column="3" FontSize="24" Text="{Binding MaxT, Converter={StaticResource MaxTConverter}}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                        <TextBlock Grid.Column="4" FontSize="24" Text="{Binding Rain, Converter={StaticResource RainConverter}}" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,3695 @@
+<GTTown368Data>
+<AnalysisData>
+<IssueTime>2013-02-17T11:00+08:00</IssueTime>
+<Metadata>
+<WeatherElement>
+<Temp unit="攝氏" explanation="溫度"/>
+<RH unit="百分比" explanation="相對溼度"/>
+<Rain unit="公釐" explanation="時累積雨量"/>
+<Cloud unit="百分比" explanation="雲量"/>
+<WS unit="公尺/秒" explanation="風速"/>
+<WD unit="度" explanation="風向"/>
+</WeatherElement>
+</Metadata>
+<Area lat="25.134132" lon="121.494598" AreaID="6301200">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>0</WS>
+<WD>151</WD>
+</Value>
+</Area>
+<Area lat="25.094612" lon="121.511459" AreaID="6301100">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>182</WD>
+</Value>
+</Area>
+<Area lat="25.071182" lon="121.580688" AreaID="6301000">
+<Value>
+<Temp>25</Temp>
+<RH>61</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>200</WD>
+</Value>
+</Area>
+<Area lat="25.066259" lon="121.525345" AreaID="6300400">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>205</WD>
+</Value>
+</Area>
+<Area lat="25.068026" lon="121.507225" AreaID="6300600">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>198</WD>
+</Value>
+</Area>
+<Area lat="25.051607" lon="121.568985" AreaID="6300100">
+<Value>
+<Temp>25</Temp>
+<RH>61</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>200</WD>
+</Value>
+</Area>
+<Area lat="25.056316" lon="121.598488" AreaID="6300900">
+<Value>
+<Temp>25</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>218</WD>
+</Value>
+</Area>
+<Area lat="25.034069" lon="121.510063" AreaID="6300500">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>288</WD>
+</Value>
+</Area>
+<Area lat="25.036715" lon="121.491615" AreaID="6300700">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>288</WD>
+</Value>
+</Area>
+<Area lat="25.035095" lon="121.558739" AreaID="6300200">
+<Value>
+<Temp>25</Temp>
+<RH>61</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>218</WD>
+</Value>
+</Area>
+<Area lat="25.028248" lon="121.526398" AreaID="6300300">
+<Value>
+<Temp>25</Temp>
+<RH>59</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>267</WD>
+</Value>
+</Area>
+<Area lat="24.991364" lon="121.561760" AreaID="6300800">
+<Value>
+<Temp>25</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="25.293055" lon="121.559410" AreaID="6500022">
+<Value>
+<Temp>21</Temp>
+<RH>86</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>3</WS>
+<WD>295</WD>
+</Value>
+</Area>
+<Area lat="25.259569" lon="121.492653" AreaID="6500021">
+<Value>
+<Temp>21</Temp>
+<RH>87</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>296</WD>
+</Value>
+</Area>
+<Area lat="25.224161" lon="121.628342" AreaID="6500027">
+<Value>
+<Temp>22</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>268</WD>
+</Value>
+</Area>
+<Area lat="25.171349" lon="121.433022" AreaID="6500010">
+<Value>
+<Temp>20</Temp>
+<RH>86</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>120</WD>
+</Value>
+</Area>
+<Area lat="25.179817" lon="121.681366" AreaID="6500028">
+<Value>
+<Temp>23</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>214</WD>
+</Value>
+</Area>
+<Area lat="25.151167" lon="121.393242" AreaID="6500023">
+<Value>
+<Temp>20</Temp>
+<RH>87</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>121</WD>
+</Value>
+</Area>
+<Area lat="25.065596" lon="121.650742" AreaID="6500011">
+<Value>
+<Temp>24</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>272</WD>
+</Value>
+</Area>
+<Area lat="25.078714" lon="121.380577" AreaID="6500017">
+<Value>
+<Temp>22</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>123</WD>
+</Value>
+</Area>
+<Area lat="25.084970" lon="121.429695" AreaID="6500015">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>127</WD>
+</Value>
+</Area>
+<Area lat="25.110676" lon="121.801750" AreaID="6500012">
+<Value>
+<Temp>21</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>5</WS>
+<WD>312</WD>
+</Value>
+</Area>
+<Area lat="25.086664" lon="121.465660" AreaID="6500014">
+<Value>
+<Temp>24</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>131</WD>
+</Value>
+</Area>
+<Area lat="25.035583" lon="121.857552" AreaID="6500025">
+<Value>
+<Temp>21</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>8</WS>
+<WD>319</WD>
+</Value>
+</Area>
+<Area lat="25.062727" lon="121.480103" AreaID="6500002">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>146</WD>
+</Value>
+</Area>
+<Area lat="25.023640" lon="121.902069" AreaID="6500026">
+<Value>
+<Temp>21</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>8</WS>
+<WD>319</WD>
+</Value>
+</Area>
+<Area lat="25.028399" lon="121.729965" AreaID="6500024">
+<Value>
+<Temp>22</Temp>
+<RH>64</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>5</WS>
+<WD>319</WD>
+</Value>
+</Area>
+<Area lat="25.061123" lon="121.423294" AreaID="6500016">
+<Value>
+<Temp>24</Temp>
+<RH>56</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>135</WD>
+</Value>
+</Area>
+<Area lat="25.037647" lon="121.442337" AreaID="6500005">
+<Value>
+<Temp>25</Temp>
+<RH>55</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>168</WD>
+</Value>
+</Area>
+<Area lat="24.993298" lon="121.649704" AreaID="6500019">
+<Value>
+<Temp>24</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>310</WD>
+</Value>
+</Area>
+<Area lat="25.011539" lon="121.450890" AreaID="6500001">
+<Value>
+<Temp>25</Temp>
+<RH>55</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>201</WD>
+</Value>
+</Area>
+<Area lat="25.004227" lon="121.607651" AreaID="6500018">
+<Value>
+<Temp>25</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>265</WD>
+</Value>
+</Area>
+<Area lat="25.010925" lon="121.511986" AreaID="6500004">
+<Value>
+<Temp>25</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>267</WD>
+</Value>
+</Area>
+<Area lat="24.991747" lon="121.416595" AreaID="6500007">
+<Value>
+<Temp>25</Temp>
+<RH>56</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>186</WD>
+</Value>
+</Area>
+<Area lat="25.000439" lon="121.492790" AreaID="6500003">
+<Value>
+<Temp>25</Temp>
+<RH>56</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>223</WD>
+</Value>
+</Area>
+<Area lat="24.974167" lon="121.434708" AreaID="6500013">
+<Value>
+<Temp>25</Temp>
+<RH>57</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>186</WD>
+</Value>
+</Area>
+<Area lat="24.969154" lon="121.533394" AreaID="6500006">
+<Value>
+<Temp>25</Temp>
+<RH>56</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>199</WD>
+</Value>
+</Area>
+<Area lat="24.937916" lon="121.703583" AreaID="6500020">
+<Value>
+<Temp>23</Temp>
+<RH>64</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>4</WS>
+<WD>314</WD>
+</Value>
+</Area>
+<Area lat="24.957830" lon="121.346153" AreaID="6500008">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>154</WD>
+</Value>
+</Area>
+<Area lat="24.936062" lon="121.360840" AreaID="6500009">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>153</WD>
+</Value>
+</Area>
+<Area lat="24.873686" lon="121.539955" AreaID="6500029">
+<Value>
+<Temp>23</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>212</WD>
+</Value>
+</Area>
+<Area lat="24.184731" lon="120.678368" AreaID="6600008">
+<Value>
+<Temp>24</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>74</WD>
+</Value>
+</Area>
+<Area lat="24.167276" lon="120.625580" AreaID="6600006">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>115</WD>
+</Value>
+</Area>
+<Area lat="24.167747" lon="120.673950" AreaID="6600005">
+<Value>
+<Temp>24</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>74</WD>
+</Value>
+</Area>
+<Area lat="24.140057" lon="120.634644" AreaID="6600007">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>97</WD>
+</Value>
+</Area>
+<Area lat="24.142918" lon="120.662949" AreaID="6600004">
+<Value>
+<Temp>24</Temp>
+<RH>61</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>72</WD>
+</Value>
+</Area>
+<Area lat="24.138430" lon="120.695503" AreaID="6600002">
+<Value>
+<Temp>24</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>32</WD>
+</Value>
+</Area>
+<Area lat="24.145697" lon="120.671242" AreaID="6600001">
+<Value>
+<Temp>24</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>47</WD>
+</Value>
+</Area>
+<Area lat="24.118841" lon="120.655670" AreaID="6600003">
+<Value>
+<Temp>24</Temp>
+<RH>61</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>68</WD>
+</Value>
+</Area>
+<Area lat="24.176580" lon="120.875458" AreaID="6600029">
+<Value>
+<Temp>23</Temp>
+<RH>48</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>1</WS>
+<WD>4</WD>
+</Value>
+</Area>
+<Area lat="24.350838" lon="120.614296" AreaID="6600011">
+<Value>
+<Temp>20</Temp>
+<RH>88</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>180</WD>
+</Value>
+</Area>
+<Area lat="24.347963" lon="120.578369" AreaID="6600022">
+<Value>
+<Temp>19</Temp>
+<RH>91</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>178</WD>
+</Value>
+</Area>
+<Area lat="24.333797" lon="120.646210" AreaID="6600021">
+<Value>
+<Temp>21</Temp>
+<RH>84</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>180</WD>
+</Value>
+</Area>
+<Area lat="24.306704" lon="120.702576" AreaID="6600015">
+<Value>
+<Temp>22</Temp>
+<RH>81</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>178</WD>
+</Value>
+</Area>
+<Area lat="24.270172" lon="120.551628" AreaID="6600012">
+<Value>
+<Temp>21</Temp>
+<RH>82</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>171</WD>
+</Value>
+</Area>
+<Area lat="24.260328" lon="120.819756" AreaID="6600010">
+<Value>
+<Temp>26</Temp>
+<RH>44</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>3</WD>
+</Value>
+</Area>
+<Area lat="24.259569" lon="120.653229" AreaID="6600016">
+<Value>
+<Temp>22</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>171</WD>
+</Value>
+</Area>
+<Area lat="24.194294" lon="120.537628" AreaID="6600025">
+<Value>
+<Temp>21</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>161</WD>
+</Value>
+</Area>
+<Area lat="24.276691" lon="120.771889" AreaID="6600020">
+<Value>
+<Temp>25</Temp>
+<RH>55</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>4</WD>
+</Value>
+</Area>
+<Area lat="24.243893" lon="120.710007" AreaID="6600009">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>157</WD>
+</Value>
+</Area>
+<Area lat="24.256657" lon="120.523705" AreaID="6600014">
+<Value>
+<Temp>20</Temp>
+<RH>81</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>5</WS>
+<WD>169</WD>
+</Value>
+</Area>
+<Area lat="24.235529" lon="120.801407" AreaID="6600019">
+<Value>
+<Temp>25</Temp>
+<RH>47</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>1</WS>
+<WD>3</WD>
+</Value>
+</Area>
+<Area lat="24.235085" lon="120.558136" AreaID="6600013">
+<Value>
+<Temp>22</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>165</WD>
+</Value>
+</Area>
+<Area lat="24.230892" lon="120.639648" AreaID="6600018">
+<Value>
+<Temp>24</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>161</WD>
+</Value>
+</Area>
+<Area lat="24.211248" lon="120.696999" AreaID="6600017">
+<Value>
+<Temp>24</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>43</WD>
+</Value>
+</Area>
+<Area lat="24.152887" lon="120.537575" AreaID="6600024">
+<Value>
+<Temp>22</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>148</WD>
+</Value>
+</Area>
+<Area lat="24.128151" lon="120.710205" AreaID="6600027">
+<Value>
+<Temp>24</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>32</WD>
+</Value>
+</Area>
+<Area lat="24.106527" lon="120.615585" AreaID="6600023">
+<Value>
+<Temp>24</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>102</WD>
+</Value>
+</Area>
+<Area lat="24.101152" lon="120.669502" AreaID="6600028">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>49</WD>
+</Value>
+</Area>
+<Area lat="24.062819" lon="120.691956" AreaID="6600026">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>1</WS>
+<WD>54</WD>
+</Value>
+</Area>
+<Area lat="23.048965" lon="120.176613" AreaID="6700035">
+<Value>
+<Temp>22</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>3</WS>
+<WD>170</WD>
+</Value>
+</Area>
+<Area lat="22.994043" lon="120.197594" AreaID="6700037">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>188</WD>
+</Value>
+</Area>
+<Area lat="22.996393" lon="120.160416" AreaID="6700036">
+<Value>
+<Temp>22</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>190</WD>
+</Value>
+</Area>
+<Area lat="22.981955" lon="120.215912" AreaID="6700032">
+<Value>
+<Temp>23</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>188</WD>
+</Value>
+</Area>
+<Area lat="22.962938" lon="120.180565" AreaID="6700033">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>192</WD>
+</Value>
+</Area>
+<Area lat="23.001415" lon="120.194801" AreaID="6700034">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>188</WD>
+</Value>
+</Area>
+<Area lat="23.353102" lon="120.407532" AreaID="6700003">
+<Value>
+<Temp>22</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>133</WD>
+</Value>
+</Area>
+<Area lat="23.367849" lon="120.353188" AreaID="6700005">
+<Value>
+<Temp>22</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>136</WD>
+</Value>
+</Area>
+<Area lat="23.321798" lon="120.258080" AreaID="6700002">
+<Value>
+<Temp>21</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>145</WD>
+</Value>
+</Area>
+<Area lat="23.311831" lon="120.308434" AreaID="6700001">
+<Value>
+<Temp>21</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>139</WD>
+</Value>
+</Area>
+<Area lat="23.327871" lon="120.396431" AreaID="6700006">
+<Value>
+<Temp>22</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>133</WD>
+</Value>
+</Area>
+<Area lat="23.269539" lon="120.117302" AreaID="6700017">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>3</WS>
+<WD>162</WD>
+</Value>
+</Area>
+<Area lat="23.280281" lon="120.303703" AreaID="6700004">
+<Value>
+<Temp>21</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>137</WD>
+</Value>
+</Area>
+<Area lat="23.232162" lon="120.174232" AreaID="6700013">
+<Value>
+<Temp>21</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>150</WD>
+</Value>
+</Area>
+<Area lat="23.237385" lon="120.256233" AreaID="6700008">
+<Value>
+<Temp>22</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>140</WD>
+</Value>
+</Area>
+<Area lat="23.233521" lon="120.339355" AreaID="6700009">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>130</WD>
+</Value>
+</Area>
+<Area lat="23.044758" lon="120.469696" AreaID="6700025">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>0</WS>
+<WD>94</WD>
+</Value>
+</Area>
+<Area lat="23.200645" lon="120.150612" AreaID="6700016">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>155</WD>
+</Value>
+</Area>
+<Area lat="23.175871" lon="120.478264" AreaID="6700024">
+<Value>
+<Temp>25</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>116</WD>
+</Value>
+</Area>
+<Area lat="23.186699" lon="120.250389" AreaID="6700007">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>134</WD>
+</Value>
+</Area>
+<Area lat="23.194992" lon="120.307228" AreaID="6700010">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>130</WD>
+</Value>
+</Area>
+<Area lat="23.167042" lon="120.168968" AreaID="6700012">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>155</WD>
+</Value>
+</Area>
+<Area lat="23.120705" lon="120.348869" AreaID="6700011">
+<Value>
+<Temp>23</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>125</WD>
+</Value>
+</Area>
+<Area lat="23.142471" lon="120.131325" AreaID="6700015">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>165</WD>
+</Value>
+</Area>
+<Area lat="23.125486" lon="120.452019" AreaID="6700023">
+<Value>
+<Temp>24</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>119</WD>
+</Value>
+</Area>
+<Area lat="23.134077" lon="120.288635" AreaID="6700019">
+<Value>
+<Temp>22</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>128</WD>
+</Value>
+</Area>
+<Area lat="23.124741" lon="120.195381" AreaID="6700014">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>148</WD>
+</Value>
+</Area>
+<Area lat="23.105318" lon="120.344482" AreaID="6700022">
+<Value>
+<Temp>23</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>125</WD>
+</Value>
+</Area>
+<Area lat="23.123266" lon="120.228928" AreaID="6700021">
+<Value>
+<Temp>22</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>135</WD>
+</Value>
+</Area>
+<Area lat="23.080673" lon="120.286964" AreaID="6700020">
+<Value>
+<Temp>22</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>129</WD>
+</Value>
+</Area>
+<Area lat="23.058657" lon="120.400658" AreaID="6700026">
+<Value>
+<Temp>24</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>1</WS>
+<WD>128</WD>
+</Value>
+</Area>
+<Area lat="23.040281" lon="120.302795" AreaID="6700018">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>136</WD>
+</Value>
+</Area>
+<Area lat="23.027864" lon="120.248886" AreaID="6700031">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>151</WD>
+</Value>
+</Area>
+<Area lat="22.968752" lon="120.285789" AreaID="6700028">
+<Value>
+<Temp>24</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>168</WD>
+</Value>
+</Area>
+<Area lat="22.964584" lon="120.319710" AreaID="6700029">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>156</WD>
+</Value>
+</Area>
+<Area lat="22.965160" lon="120.356743" AreaID="6700030">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>151</WD>
+</Value>
+</Area>
+<Area lat="22.974167" lon="120.243591" AreaID="6700027">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>182</WD>
+</Value>
+</Area>
+<Area lat="22.730249" lon="120.318268" AreaID="6400400">
+<Value>
+<Temp>24</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>154</WD>
+</Value>
+</Area>
+<Area lat="22.691595" lon="120.287033" AreaID="6400300">
+<Value>
+<Temp>24</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>143</WD>
+</Value>
+</Area>
+<Area lat="22.649368" lon="120.291740" AreaID="6400500">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>130</WD>
+</Value>
+</Area>
+<Area lat="22.638584" lon="120.273018" AreaID="6400200">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>123</WD>
+</Value>
+</Area>
+<Area lat="22.623510" lon="120.304085" AreaID="6400800">
+<Value>
+<Temp>24</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>132</WD>
+</Value>
+</Area>
+<Area lat="22.632759" lon="120.301949" AreaID="6400600">
+<Value>
+<Temp>24</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>132</WD>
+</Value>
+</Area>
+<Area lat="22.629185" lon="120.286148" AreaID="6400700">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>123</WD>
+</Value>
+</Area>
+<Area lat="22.626497" lon="120.278709" AreaID="6400100">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>123</WD>
+</Value>
+</Area>
+<Area lat="22.588331" lon="120.310242" AreaID="6400900">
+<Value>
+<Temp>25</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>118</WD>
+</Value>
+</Area>
+<Area lat="22.612669" lon="120.259857" AreaID="6401000">
+<Value>
+<Temp>24</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>114</WD>
+</Value>
+</Area>
+<Area lat="22.567160" lon="120.330139" AreaID="6401100">
+<Value>
+<Temp>26</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>125</WD>
+</Value>
+</Area>
+<Area lat="23.240034" lon="120.688698" AreaID="6400038">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>0</Cloud>
+<WS>2</WS>
+<WD>304</WD>
+</Value>
+</Area>
+<Area lat="23.085825" lon="120.579811" AreaID="6400033">
+<Value>
+<Temp>27</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>1</WS>
+<WD>329</WD>
+</Value>
+</Area>
+<Area lat="23.000179" lon="120.624641" AreaID="6400032">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>1</WS>
+<WD>308</WD>
+</Value>
+</Area>
+<Area lat="22.973536" lon="120.531929" AreaID="6400034">
+<Value>
+<Temp>25</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>0</WS>
+<WD>282</WD>
+</Value>
+</Area>
+<Area lat="22.944590" lon="120.454552" AreaID="6400035">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>155</WD>
+</Value>
+</Area>
+<Area lat="22.888083" lon="120.655624" AreaID="6400036">
+<Value>
+<Temp>25</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>2</WS>
+<WD>291</WD>
+</Value>
+</Area>
+<Area lat="22.896519" lon="120.533775" AreaID="6400031">
+<Value>
+<Temp>24</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>0</WS>
+<WD>263</WD>
+</Value>
+</Area>
+<Area lat="22.890390" lon="120.475403" AreaID="6400030">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>0</WS>
+<WD>201</WD>
+</Value>
+</Area>
+<Area lat="22.871588" lon="120.351334" AreaID="6400022">
+<Value>
+<Temp>25</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>169</WD>
+</Value>
+</Area>
+<Area lat="22.910131" lon="120.203644" AreaID="6400025">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>184</WD>
+</Value>
+</Area>
+<Area lat="22.908516" lon="120.174423" AreaID="6400026">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>184</WD>
+</Value>
+</Area>
+<Area lat="22.884886" lon="120.319237" AreaID="6400023">
+<Value>
+<Temp>25</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>171</WD>
+</Value>
+</Area>
+<Area lat="22.856394" lon="120.251175" AreaID="6400024">
+<Value>
+<Temp>24</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>174</WD>
+</Value>
+</Area>
+<Area lat="22.820017" lon="120.216194" AreaID="6400027">
+<Value>
+<Temp>24</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>3</WS>
+<WD>163</WD>
+</Value>
+</Area>
+<Area lat="22.799101" lon="120.286926" AreaID="6400019">
+<Value>
+<Temp>24</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>161</WD>
+</Value>
+</Area>
+<Area lat="22.795113" lon="120.354004" AreaID="6400021">
+<Value>
+<Temp>25</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>170</WD>
+</Value>
+</Area>
+<Area lat="22.783209" lon="120.242561" AreaID="6400028">
+<Value>
+<Temp>24</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>3</WS>
+<WD>158</WD>
+</Value>
+</Area>
+<Area lat="22.759319" lon="120.297691" AreaID="6400020">
+<Value>
+<Temp>24</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>160</WD>
+</Value>
+</Area>
+<Area lat="22.695141" lon="120.425003" AreaID="6400015">
+<Value>
+<Temp>26</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>219</WD>
+</Value>
+</Area>
+<Area lat="22.762455" lon="120.259216" AreaID="6400029">
+<Value>
+<Temp>24</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>154</WD>
+</Value>
+</Area>
+<Area lat="22.731833" lon="120.338554" AreaID="6400016">
+<Value>
+<Temp>25</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>162</WD>
+</Value>
+</Area>
+<Area lat="22.703054" lon="120.339577" AreaID="6400017">
+<Value>
+<Temp>25</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>161</WD>
+</Value>
+</Area>
+<Area lat="22.661583" lon="120.356277" AreaID="6400018">
+<Value>
+<Temp>25</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>1</WS>
+<WD>180</WD>
+</Value>
+</Area>
+<Area lat="22.607134" lon="120.387428" AreaID="6400014">
+<Value>
+<Temp>26</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>1</WS>
+<WD>219</WD>
+</Value>
+</Area>
+<Area lat="22.628950" lon="120.354324" AreaID="6400012">
+<Value>
+<Temp>26</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>1</WS>
+<WD>181</WD>
+</Value>
+</Area>
+<Area lat="22.509735" lon="120.386711" AreaID="6400013">
+<Value>
+<Temp>25</Temp>
+<RH>64</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>1</WS>
+<WD>226</WD>
+</Value>
+</Area>
+<Area lat="23.161022" lon="120.756065" AreaID="6400037">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>0</Cloud>
+<WS>3</WS>
+<WD>304</WD>
+</Value>
+</Area>
+<Area lat="25.122816" lon="121.715042" AreaID="1001706">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>232</WD>
+</Value>
+</Area>
+<Area lat="25.154739" lon="121.721458" AreaID="1001705">
+<Value>
+<Temp>23</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>213</WD>
+</Value>
+</Area>
+<Area lat="25.153191" lon="121.759354" AreaID="1001701">
+<Value>
+<Temp>23</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>237</WD>
+</Value>
+</Area>
+<Area lat="25.097645" lon="121.705025" AreaID="1001702">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>248</WD>
+</Value>
+</Area>
+<Area lat="25.131325" lon="121.743103" AreaID="1001707">
+<Value>
+<Temp>22</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>264</WD>
+</Value>
+</Area>
+<Area lat="25.129442" lon="121.732590" AreaID="1001704">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>232</WD>
+</Value>
+</Area>
+<Area lat="25.101908" lon="121.727654" AreaID="1001703">
+<Value>
+<Temp>22</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>270</WD>
+</Value>
+</Area>
+<Area lat="25.065701" lon="121.187248" AreaID="1000306">
+<Value>
+<Temp>19</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>130</WD>
+</Value>
+</Area>
+<Area lat="25.048746" lon="121.287056" AreaID="1000305">
+<Value>
+<Temp>21</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>134</WD>
+</Value>
+</Area>
+<Area lat="25.038202" lon="121.073654" AreaID="1000312">
+<Value>
+<Temp>18</Temp>
+<RH>82</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>131</WD>
+</Value>
+</Area>
+<Area lat="24.994329" lon="121.329689" AreaID="1000307">
+<Value>
+<Temp>23</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>143</WD>
+</Value>
+</Area>
+<Area lat="24.995720" lon="121.293449" AreaID="1000301">
+<Value>
+<Temp>23</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>140</WD>
+</Value>
+</Area>
+<Area lat="24.967495" lon="121.216919" AreaID="1000302">
+<Value>
+<Temp>21</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>134</WD>
+</Value>
+</Area>
+<Area lat="24.974325" lon="121.097321" AreaID="1000311">
+<Value>
+<Temp>20</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>131</WD>
+</Value>
+</Area>
+<Area lat="24.930719" lon="121.276398" AreaID="1000308">
+<Value>
+<Temp>22</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>139</WD>
+</Value>
+</Area>
+<Area lat="24.947382" lon="121.209999" AreaID="1000310">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>133</WD>
+</Value>
+</Area>
+<Area lat="24.909367" lon="121.137642" AreaID="1000304">
+<Value>
+<Temp>22</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>122</WD>
+</Value>
+</Area>
+<Area lat="24.882288" lon="121.278915" AreaID="1000303">
+<Value>
+<Temp>23</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>138</WD>
+</Value>
+</Area>
+<Area lat="24.865807" lon="121.208336" AreaID="1000309">
+<Value>
+<Temp>23</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>122</WD>
+</Value>
+</Area>
+<Area lat="24.820341" lon="121.343407" AreaID="1000313">
+<Value>
+<Temp>23</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>134</WD>
+</Value>
+</Area>
+<Area lat="24.818110" lon="120.962112" AreaID="1001802">
+<Value>
+<Temp>19</Temp>
+<RH>81</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>1</WS>
+<WD>201</WD>
+</Value>
+</Area>
+<Area lat="24.798788" lon="120.933769" AreaID="1001803">
+<Value>
+<Temp>19</Temp>
+<RH>81</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>1</WS>
+<WD>223</WD>
+</Value>
+</Area>
+<Area lat="24.806995" lon="120.965302" AreaID="1001801">
+<Value>
+<Temp>20</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>181</WD>
+</Value>
+</Area>
+<Area lat="24.902527" lon="120.977257" AreaID="1000406">
+<Value>
+<Temp>19</Temp>
+<RH>84</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>1</WS>
+<WD>154</WD>
+</Value>
+</Area>
+<Area lat="24.902695" lon="121.039803" AreaID="1000405">
+<Value>
+<Temp>20</Temp>
+<RH>82</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>1</WS>
+<WD>139</WD>
+</Value>
+</Area>
+<Area lat="24.829659" lon="121.063087" AreaID="1000403">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>141</WD>
+</Value>
+</Area>
+<Area lat="24.841246" lon="120.995697" AreaID="1000401">
+<Value>
+<Temp>20</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>160</WD>
+</Value>
+</Area>
+<Area lat="24.794170" lon="121.167610" AreaID="1000404">
+<Value>
+<Temp>23</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>124</WD>
+</Value>
+</Area>
+<Area lat="24.775089" lon="121.073662" AreaID="1000407">
+<Value>
+<Temp>22</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>133</WD>
+</Value>
+</Area>
+<Area lat="24.738499" lon="121.083534" AreaID="1000402">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>128</WD>
+</Value>
+</Area>
+<Area lat="24.767366" lon="120.982971" AreaID="1000410">
+<Value>
+<Temp>20</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>0</WS>
+<WD>200</WD>
+</Value>
+</Area>
+<Area lat="24.706999" lon="121.193275" AreaID="1000412">
+<Value>
+<Temp>21</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>110</WD>
+</Value>
+</Area>
+<Area lat="24.718599" lon="121.133286" AreaID="1000408">
+<Value>
+<Temp>23</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>114</WD>
+</Value>
+</Area>
+<Area lat="24.703730" lon="121.048233" AreaID="1000409">
+<Value>
+<Temp>22</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>122</WD>
+</Value>
+</Area>
+<Area lat="24.690531" lon="121.011375" AreaID="1000411">
+<Value>
+<Temp>21</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>179</WD>
+</Value>
+</Area>
+<Area lat="24.633917" lon="121.111359" AreaID="1000413">
+<Value>
+<Temp>20</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>71</WD>
+</Value>
+</Area>
+<Area lat="24.685652" lon="120.865295" AreaID="1000504">
+<Value>
+<Temp>19</Temp>
+<RH>84</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>1</WS>
+<WD>223</WD>
+</Value>
+</Area>
+<Area lat="24.687918" lon="120.904762" AreaID="1000505">
+<Value>
+<Temp>20</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>224</WD>
+</Value>
+</Area>
+<Area lat="24.654905" lon="120.948624" AreaID="1000516">
+<Value>
+<Temp>21</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>0</WS>
+<WD>210</WD>
+</Value>
+</Area>
+<Area lat="24.640182" lon="120.857269" AreaID="1000515">
+<Value>
+<Temp>19</Temp>
+<RH>84</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>217</WD>
+</Value>
+</Area>
+<Area lat="24.615429" lon="120.783844" AreaID="1000506">
+<Value>
+<Temp>19</Temp>
+<RH>88</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>211</WD>
+</Value>
+</Area>
+<Area lat="24.598866" lon="120.992180" AreaID="1000511">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>53</WD>
+</Value>
+</Area>
+<Area lat="24.579517" lon="120.842911" AreaID="1000512">
+<Value>
+<Temp>20</Temp>
+<RH>82</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>211</WD>
+</Value>
+</Area>
+<Area lat="24.541315" lon="120.911903" AreaID="1000517">
+<Value>
+<Temp>22</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>0</WS>
+<WD>23</WD>
+</Value>
+</Area>
+<Area lat="24.563328" lon="120.810966" AreaID="1000501">
+<Value>
+<Temp>20</Temp>
+<RH>83</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>208</WD>
+</Value>
+</Area>
+<Area lat="24.558384" lon="120.749168" AreaID="1000514">
+<Value>
+<Temp>20</Temp>
+<RH>86</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>205</WD>
+</Value>
+</Area>
+<Area lat="24.493071" lon="120.676109" AreaID="1000503">
+<Value>
+<Temp>21</Temp>
+<RH>88</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>194</WD>
+</Value>
+</Area>
+<Area lat="24.507572" lon="120.820313" AreaID="1000509">
+<Value>
+<Temp>22</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>1</WS>
+<WD>202</WD>
+</Value>
+</Area>
+<Area lat="24.488750" lon="120.779671" AreaID="1000510">
+<Value>
+<Temp>21</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>1</WS>
+<WD>200</WD>
+</Value>
+</Area>
+<Area lat="24.448973" lon="120.899780" AreaID="1000518">
+<Value>
+<Temp>24</Temp>
+<RH>56</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>21</WD>
+</Value>
+</Area>
+<Area lat="24.441422" lon="120.644958" AreaID="1000502">
+<Value>
+<Temp>20</Temp>
+<RH>84</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>189</WD>
+</Value>
+</Area>
+<Area lat="24.425184" lon="120.857994" AreaID="1000508">
+<Value>
+<Temp>24</Temp>
+<RH>54</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>0</WS>
+<WD>18</WD>
+</Value>
+</Area>
+<Area lat="24.414619" lon="120.762009" AreaID="1000513">
+<Value>
+<Temp>22</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>0</WS>
+<WD>134</WD>
+</Value>
+</Area>
+<Area lat="24.314650" lon="120.816399" AreaID="1000507">
+<Value>
+<Temp>25</Temp>
+<RH>46</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>5</WD>
+</Value>
+</Area>
+<Area lat="24.161568" lon="120.478035" AreaID="1000705">
+<Value>
+<Temp>21</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>154</WD>
+</Value>
+</Area>
+<Area lat="24.110231" lon="120.486076" AreaID="1000703">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>143</WD>
+</Value>
+</Area>
+<Area lat="24.132324" lon="120.462578" AreaID="1000704">
+<Value>
+<Temp>21</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>152</WD>
+</Value>
+</Area>
+<Area lat="24.058958" lon="120.426903" AreaID="1000702">
+<Value>
+<Temp>21</Temp>
+<RH>83</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>144</WD>
+</Value>
+</Area>
+<Area lat="24.082575" lon="120.534058" AreaID="1000701">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>123</WD>
+</Value>
+</Area>
+<Area lat="24.037016" lon="120.494705" AreaID="1000707">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>121</WD>
+</Value>
+</Area>
+<Area lat="24.049723" lon="120.435722" AreaID="1000706">
+<Value>
+<Temp>21</Temp>
+<RH>81</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>140</WD>
+</Value>
+</Area>
+<Area lat="24.031359" lon="120.530106" AreaID="1000708">
+<Value>
+<Temp>24</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>110</WD>
+</Value>
+</Area>
+<Area lat="24.015385" lon="120.620811" AreaID="1000709">
+<Value>
+<Temp>25</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>83</WD>
+</Value>
+</Area>
+<Area lat="23.926058" lon="120.312202" AreaID="1000723">
+<Value>
+<Temp>20</Temp>
+<RH>87</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>154</WD>
+</Value>
+</Area>
+<Area lat="24.002037" lon="120.455429" AreaID="1000714">
+<Value>
+<Temp>22</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>129</WD>
+</Value>
+</Area>
+<Area lat="23.995174" lon="120.539116" AreaID="1000713">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>109</WD>
+</Value>
+</Area>
+<Area lat="23.901470" lon="120.366226" AreaID="1000720">
+<Value>
+<Temp>21</Temp>
+<RH>88</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>145</WD>
+</Value>
+</Area>
+<Area lat="23.960810" lon="120.566223" AreaID="1000710">
+<Value>
+<Temp>25</Temp>
+<RH>63</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>104</WD>
+</Value>
+</Area>
+<Area lat="23.967903" lon="120.475410" AreaID="1000711">
+<Value>
+<Temp>24</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>122</WD>
+</Value>
+</Area>
+<Area lat="23.954739" lon="120.535393" AreaID="1000715">
+<Value>
+<Temp>24</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>110</WD>
+</Value>
+</Area>
+<Area lat="23.926422" lon="120.539589" AreaID="1000716">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>111</WD>
+</Value>
+</Area>
+<Area lat="23.898478" lon="120.577713" AreaID="1000717">
+<Value>
+<Temp>25</Temp>
+<RH>64</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>105</WD>
+</Value>
+</Area>
+<Area lat="23.893303" lon="120.454041" AreaID="1000722">
+<Value>
+<Temp>23</Temp>
+<RH>86</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>126</WD>
+</Value>
+</Area>
+<Area lat="23.893948" lon="120.517799" AreaID="1000721">
+<Value>
+<Temp>24</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>114</WD>
+</Value>
+</Area>
+<Area lat="23.854033" lon="120.312813" AreaID="1000724">
+<Value>
+<Temp>20</Temp>
+<RH>86</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>152</WD>
+</Value>
+</Area>
+<Area lat="23.863241" lon="120.572807" AreaID="1000712">
+<Value>
+<Temp>24</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>112</WD>
+</Value>
+</Area>
+<Area lat="23.863300" lon="120.513687" AreaID="1000719">
+<Value>
+<Temp>24</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>120</WD>
+</Value>
+</Area>
+<Area lat="23.862200" lon="120.419724" AreaID="1000725">
+<Value>
+<Temp>22</Temp>
+<RH>92</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>131</WD>
+</Value>
+</Area>
+<Area lat="23.853449" lon="120.490936" AreaID="1000726">
+<Value>
+<Temp>23</Temp>
+<RH>82</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>123</WD>
+</Value>
+</Area>
+<Area lat="23.808357" lon="120.610779" AreaID="1000718">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>118</WD>
+</Value>
+</Area>
+<Area lat="24.023226" lon="121.124146" AreaID="1000813">
+<Value>
+<Temp>21</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>0</Cloud>
+<WS>1</WS>
+<WD>242</WD>
+</Value>
+</Area>
+<Area lat="24.041861" lon="120.849274" AreaID="1000810">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>1</WS>
+<WD>43</WD>
+</Value>
+</Area>
+<Area lat="23.968307" lon="120.961060" AreaID="1000802">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>1</WS>
+<WD>191</WD>
+</Value>
+</Area>
+<Area lat="23.975548" lon="120.672119" AreaID="1000803">
+<Value>
+<Temp>24</Temp>
+<RH>61</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>84</WD>
+</Value>
+</Area>
+<Area lat="23.880735" lon="120.758026" AreaID="1000808">
+<Value>
+<Temp>25</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>1</WS>
+<WD>116</WD>
+</Value>
+</Area>
+<Area lat="23.913301" lon="120.679245" AreaID="1000801">
+<Value>
+<Temp>25</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>102</WD>
+</Value>
+</Area>
+<Area lat="23.897526" lon="120.927498" AreaID="1000809">
+<Value>
+<Temp>24</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>1</WS>
+<WD>175</WD>
+</Value>
+</Area>
+<Area lat="23.813070" lon="120.847771" AreaID="1000811">
+<Value>
+<Temp>25</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>1</WS>
+<WD>165</WD>
+</Value>
+</Area>
+<Area lat="23.840067" lon="120.694923" AreaID="1000806">
+<Value>
+<Temp>24</Temp>
+<RH>62</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>118</WD>
+</Value>
+</Area>
+<Area lat="23.698586" lon="120.846436" AreaID="1000812">
+<Value>
+<Temp>23</Temp>
+<RH>59</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>1</WS>
+<WD>210</WD>
+</Value>
+</Area>
+<Area lat="23.830193" lon="120.778404" AreaID="1000805">
+<Value>
+<Temp>25</Temp>
+<RH>60</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>1</WS>
+<WD>132</WD>
+</Value>
+</Area>
+<Area lat="23.759415" lon="120.663292" AreaID="1000804">
+<Value>
+<Temp>24</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>130</WD>
+</Value>
+</Area>
+<Area lat="23.747355" lon="120.745438" AreaID="1000807">
+<Value>
+<Temp>23</Temp>
+<RH>58</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>1</WS>
+<WD>148</WD>
+</Value>
+</Area>
+<Area lat="23.755569" lon="120.243507" AreaID="1000913">
+<Value>
+<Temp>21</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>160</WD>
+</Value>
+</Area>
+<Area lat="23.772884" lon="120.404694" AreaID="1000911">
+<Value>
+<Temp>23</Temp>
+<RH>83</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>3</WS>
+<WD>137</WD>
+</Value>
+</Area>
+<Area lat="23.764181" lon="120.350990" AreaID="1000912">
+<Value>
+<Temp>22</Temp>
+<RH>84</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>144</WD>
+</Value>
+</Area>
+<Area lat="23.799496" lon="120.457504" AreaID="1000904">
+<Value>
+<Temp>23</Temp>
+<RH>83</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>130</WD>
+</Value>
+</Area>
+<Area lat="23.762787" lon="120.494331" AreaID="1000909">
+<Value>
+<Temp>24</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>127</WD>
+</Value>
+</Area>
+<Area lat="23.757915" lon="120.604752" AreaID="1000910">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>127</WD>
+</Value>
+</Area>
+<Area lat="23.702154" lon="120.188698" AreaID="1000916">
+<Value>
+<Temp>22</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>165</WD>
+</Value>
+</Area>
+<Area lat="23.679602" lon="120.384315" AreaID="1000905">
+<Value>
+<Temp>23</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>3</WS>
+<WD>142</WD>
+</Value>
+</Area>
+<Area lat="23.709999" lon="120.437172" AreaID="1000903">
+<Value>
+<Temp>23</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>137</WD>
+</Value>
+</Area>
+<Area lat="23.692846" lon="120.295258" AreaID="1000915">
+<Value>
+<Temp>22</Temp>
+<RH>80</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>153</WD>
+</Value>
+</Area>
+<Area lat="23.676785" lon="120.244476" AreaID="1000914">
+<Value>
+<Temp>22</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>159</WD>
+</Value>
+</Area>
+<Area lat="23.681730" lon="120.469513" AreaID="1000902">
+<Value>
+<Temp>23</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>135</WD>
+</Value>
+</Area>
+<Area lat="23.639900" lon="120.216316" AreaID="1000918">
+<Value>
+<Temp>22</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>161</WD>
+</Value>
+</Area>
+<Area lat="23.644554" lon="120.553894" AreaID="1000907">
+<Value>
+<Temp>24</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>138</WD>
+</Value>
+</Area>
+<Area lat="23.651428" lon="120.307022" AreaID="1000917">
+<Value>
+<Temp>22</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>150</WD>
+</Value>
+</Area>
+<Area lat="23.647545" lon="120.423225" AreaID="1000908">
+<Value>
+<Temp>23</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>138</WD>
+</Value>
+</Area>
+<Area lat="23.584236" lon="120.177330" AreaID="1000919">
+<Value>
+<Temp>22</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>163</WD>
+</Value>
+</Area>
+<Area lat="23.577747" lon="120.294266" AreaID="1000906">
+<Value>
+<Temp>22</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>153</WD>
+</Value>
+</Area>
+<Area lat="23.574572" lon="120.237991" AreaID="1000920">
+<Value>
+<Temp>22</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>158</WD>
+</Value>
+</Area>
+<Area lat="23.698833" lon="120.518875" AreaID="1000901">
+<Value>
+<Temp>24</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>133</WD>
+</Value>
+</Area>
+<Area lat="23.480385" lon="120.445358" AreaID="1002001">
+<Value>
+<Temp>22</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>121</WD>
+</Value>
+</Area>
+<Area lat="23.466267" lon="120.427284" AreaID="1002002">
+<Value>
+<Temp>21</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>119</WD>
+</Value>
+</Area>
+<Area lat="23.605679" lon="120.463051" AreaID="1001004">
+<Value>
+<Temp>23</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>137</WD>
+</Value>
+</Area>
+<Area lat="23.604305" lon="120.384186" AreaID="1001006">
+<Value>
+<Temp>22</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>141</WD>
+</Value>
+</Area>
+<Area lat="23.473192" lon="120.705330" AreaID="1001018">
+<Value>
+<Temp>20</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>0</Cloud>
+<WS>1</WS>
+<WD>234</WD>
+</Value>
+</Area>
+<Area lat="23.586662" lon="120.547615" AreaID="1001015">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>140</WD>
+</Value>
+</Area>
+<Area lat="23.553823" lon="120.339340" AreaID="1001007">
+<Value>
+<Temp>22</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>145</WD>
+</Value>
+</Area>
+<Area lat="23.553198" lon="120.420387" AreaID="1001005">
+<Value>
+<Temp>22</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>127</WD>
+</Value>
+</Area>
+<Area lat="23.494917" lon="120.283646" AreaID="1001008">
+<Value>
+<Temp>21</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>150</WD>
+</Value>
+</Area>
+<Area lat="23.524746" lon="120.543266" AreaID="1001014">
+<Value>
+<Temp>23</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>140</WD>
+</Value>
+</Area>
+<Area lat="23.460548" lon="120.145576" AreaID="1001009">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>4</WS>
+<WD>165</WD>
+</Value>
+</Area>
+<Area lat="23.460226" lon="120.323990" AreaID="1001001">
+<Value>
+<Temp>21</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>141</WD>
+</Value>
+</Area>
+<Area lat="23.466255" lon="120.545952" AreaID="1001016">
+<Value>
+<Temp>23</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>141</WD>
+</Value>
+</Area>
+<Area lat="23.466887" lon="120.238914" AreaID="1001002">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>3</WS>
+<WD>156</WD>
+</Value>
+</Area>
+<Area lat="23.430202" lon="120.390068" AreaID="1001012">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>2</WS>
+<WD>133</WD>
+</Value>
+</Area>
+<Area lat="23.426785" lon="120.514832" AreaID="1001013">
+<Value>
+<Temp>23</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>2</WS>
+<WD>135</WD>
+</Value>
+</Area>
+<Area lat="23.379782" lon="120.158836" AreaID="1001003">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>3</WS>
+<WD>160</WD>
+</Value>
+</Area>
+<Area lat="23.413118" lon="120.300133" AreaID="1001011">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>144</WD>
+</Value>
+</Area>
+<Area lat="23.337967" lon="120.235184" AreaID="1001010">
+<Value>
+<Temp>21</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>3</WS>
+<WD>149</WD>
+</Value>
+</Area>
+<Area lat="23.296602" lon="120.585648" AreaID="1001017">
+<Value>
+<Temp>24</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>0</WS>
+<WD>118</WD>
+</Value>
+</Area>
+<Area lat="22.828306" lon="120.592255" AreaID="1001311">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>2</WS>
+<WD>278</WD>
+</Value>
+</Area>
+<Area lat="22.718081" lon="120.646255" AreaID="1001326">
+<Value>
+<Temp>26</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>271</WD>
+</Value>
+</Area>
+<Area lat="22.750784" lon="120.720146" AreaID="1001327">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>4</WS>
+<WD>280</WD>
+</Value>
+</Area>
+<Area lat="22.780914" lon="120.486412" AreaID="1001309">
+<Value>
+<Temp>25</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>225</WD>
+</Value>
+</Area>
+<Area lat="22.756189" lon="120.564629" AreaID="1001310">
+<Value>
+<Temp>26</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>2</WS>
+<WD>266</WD>
+</Value>
+</Area>
+<Area lat="22.742027" lon="120.482338" AreaID="1001308">
+<Value>
+<Temp>26</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>1</WS>
+<WD>233</WD>
+</Value>
+</Area>
+<Area lat="22.678251" lon="120.519150" AreaID="1001306">
+<Value>
+<Temp>26</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>253</WD>
+</Value>
+</Area>
+<Area lat="22.710287" lon="120.641304" AreaID="1001328">
+<Value>
+<Temp>26</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>271</WD>
+</Value>
+</Area>
+<Area lat="22.664236" lon="120.483391" AreaID="1001301">
+<Value>
+<Temp>26</Temp>
+<RH>66</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>245</WD>
+</Value>
+</Area>
+<Area lat="22.613823" lon="120.558678" AreaID="1001313">
+<Value>
+<Temp>26</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>257</WD>
+</Value>
+</Area>
+<Area lat="22.652336" lon="120.519035" AreaID="1001307">
+<Value>
+<Temp>26</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>2</WS>
+<WD>254</WD>
+</Value>
+</Area>
+<Area lat="22.593632" lon="120.623795" AreaID="1001329">
+<Value>
+<Temp>26</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>261</WD>
+</Value>
+</Area>
+<Area lat="22.574484" lon="120.559723" AreaID="1001312">
+<Value>
+<Temp>26</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>257</WD>
+</Value>
+</Area>
+<Area lat="22.586458" lon="120.535980" AreaID="1001314">
+<Value>
+<Temp>26</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>255</WD>
+</Value>
+</Area>
+<Area lat="22.591255" lon="120.477051" AreaID="1001305">
+<Value>
+<Temp>26</Temp>
+<RH>65</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>251</WD>
+</Value>
+</Area>
+<Area lat="22.527868" lon="120.623489" AreaID="1001330">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>4</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="22.551628" lon="120.534889" AreaID="1001302">
+<Value>
+<Temp>26</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>256</WD>
+</Value>
+</Area>
+<Area lat="22.545607" lon="120.453484" AreaID="1001317">
+<Value>
+<Temp>25</Temp>
+<RH>64</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>3</WS>
+<WD>252</WD>
+</Value>
+</Area>
+<Area lat="22.516479" lon="120.506050" AreaID="1001318">
+<Value>
+<Temp>25</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>3</WS>
+<WD>257</WD>
+</Value>
+</Area>
+<Area lat="22.471981" lon="120.541840" AreaID="1001315">
+<Value>
+<Temp>25</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>4</WS>
+<WD>260</WD>
+</Value>
+</Area>
+<Area lat="22.492188" lon="120.501732" AreaID="1001320">
+<Value>
+<Temp>25</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>3</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="22.468431" lon="120.446220" AreaID="1001303">
+<Value>
+<Temp>24</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>3</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="22.436710" lon="120.506256" AreaID="1001319">
+<Value>
+<Temp>25</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>4</WS>
+<WD>263</WD>
+</Value>
+</Area>
+<Area lat="22.420984" lon="120.544388" AreaID="1001321">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>5</WS>
+<WD>261</WD>
+</Value>
+</Area>
+<Area lat="22.372740" lon="120.621033" AreaID="1001331">
+<Value>
+<Temp>26</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>6</WS>
+<WD>257</WD>
+</Value>
+</Area>
+<Area lat="22.203535" lon="120.697395" AreaID="1001332">
+<Value>
+<Temp>25</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>30</Cloud>
+<WS>8</WS>
+<WD>250</WD>
+</Value>
+</Area>
+<Area lat="22.354778" lon="120.374245" AreaID="1001322">
+<Value>
+<Temp>25</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>3</WS>
+<WD>270</WD>
+</Value>
+</Area>
+<Area lat="22.265762" lon="120.644424" AreaID="1001325">
+<Value>
+<Temp>25</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>20</Cloud>
+<WS>7</WS>
+<WD>255</WD>
+</Value>
+</Area>
+<Area lat="22.128092" lon="120.766205" AreaID="1001333">
+<Value>
+<Temp>21</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>8</WS>
+<WD>243</WD>
+</Value>
+</Area>
+<Area lat="22.022579" lon="120.830605" AreaID="1001324">
+<Value>
+<Temp>22</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>3</WS>
+<WD>233</WD>
+</Value>
+</Area>
+<Area lat="22.075499" lon="120.706223" AreaID="1001323">
+<Value>
+<Temp>24</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>40</Cloud>
+<WS>9</WS>
+<WD>244</WD>
+</Value>
+</Area>
+<Area lat="22.005619" lon="120.739265" AreaID="1001304">
+<Value>
+<Temp>24</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>6</WS>
+<WD>244</WD>
+</Value>
+</Area>
+<Area lat="22.367264" lon="120.585442" AreaID="1001316">
+<Value>
+<Temp>26</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>10</Cloud>
+<WS>6</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="24.861073" lon="121.815262" AreaID="1000204">
+<Value>
+<Temp>22</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>5</WS>
+<WD>298</WD>
+</Value>
+</Area>
+<Area lat="24.825321" lon="121.763168" AreaID="1000205">
+<Value>
+<Temp>22</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>4</WS>
+<WD>285</WD>
+</Value>
+</Area>
+<Area lat="24.748707" lon="121.777412" AreaID="1000206">
+<Value>
+<Temp>22</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>3</WS>
+<WD>254</WD>
+</Value>
+</Area>
+<Area lat="24.745270" lon="121.715126" AreaID="1000207">
+<Value>
+<Temp>23</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>240</WD>
+</Value>
+</Area>
+<Area lat="24.753708" lon="121.745087" AreaID="1000201">
+<Value>
+<Temp>23</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>50</Cloud>
+<WS>3</WS>
+<WD>249</WD>
+</Value>
+</Area>
+<Area lat="24.679026" lon="121.601059" AreaID="1000211">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>207</WD>
+</Value>
+</Area>
+<Area lat="24.686573" lon="121.790085" AreaID="1000209">
+<Value>
+<Temp>23</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>274</WD>
+</Value>
+</Area>
+<Area lat="24.667368" lon="121.645668" AreaID="1000210">
+<Value>
+<Temp>23</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>220</WD>
+</Value>
+</Area>
+<Area lat="24.678673" lon="121.758766" AreaID="1000202">
+<Value>
+<Temp>23</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>60</Cloud>
+<WS>2</WS>
+<WD>268</WD>
+</Value>
+</Area>
+<Area lat="24.636322" lon="121.784012" AreaID="1000208">
+<Value>
+<Temp>23</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>2</WS>
+<WD>307</WD>
+</Value>
+</Area>
+<Area lat="24.467878" lon="121.795906" AreaID="1000212">
+<Value>
+<Temp>20</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>356</WD>
+</Value>
+</Area>
+<Area lat="24.596231" lon="121.833839" AreaID="1000203">
+<Value>
+<Temp>21</Temp>
+<RH>79</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>3</WS>
+<WD>334</WD>
+</Value>
+</Area>
+<Area lat="24.120562" lon="121.616737" AreaID="1001511">
+<Value>
+<Temp>20</Temp>
+<RH>67</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>1</WS>
+<WD>294</WD>
+</Value>
+</Area>
+<Area lat="24.041258" lon="121.596230" AreaID="1001504">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>276</WD>
+</Value>
+</Area>
+<Area lat="23.983896" lon="121.598640" AreaID="1001501">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>270</WD>
+</Value>
+</Area>
+<Area lat="23.974770" lon="121.555542" AreaID="1001505">
+<Value>
+<Temp>22</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>4</WS>
+<WD>269</WD>
+</Value>
+</Area>
+<Area lat="23.872007" lon="121.500740" AreaID="1001506">
+<Value>
+<Temp>22</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>5</WS>
+<WD>268</WD>
+</Value>
+</Area>
+<Area lat="23.716576" lon="121.402802" AreaID="1001512">
+<Value>
+<Temp>23</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>6</WS>
+<WD>266</WD>
+</Value>
+</Area>
+<Area lat="23.746481" lon="121.443703" AreaID="1001502">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>6</WS>
+<WD>265</WD>
+</Value>
+</Area>
+<Area lat="23.603086" lon="121.513008" AreaID="1001508">
+<Value>
+<Temp>22</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>6</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="23.671122" lon="121.415123" AreaID="1001507">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>6</WS>
+<WD>264</WD>
+</Value>
+</Area>
+<Area lat="23.348269" lon="121.295349" AreaID="1001513">
+<Value>
+<Temp>23</Temp>
+<RH>68</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>5</WS>
+<WD>263</WD>
+</Value>
+</Area>
+<Area lat="23.498474" lon="121.367874" AreaID="1001509">
+<Value>
+<Temp>23</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>6</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="23.337337" lon="121.307205" AreaID="1001503">
+<Value>
+<Temp>24</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>70</Cloud>
+<WS>5</WS>
+<WD>256</WD>
+</Value>
+</Area>
+<Area lat="23.181219" lon="121.242134" AreaID="1001510">
+<Value>
+<Temp>23</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>258</WD>
+</Value>
+</Area>
+<Area lat="23.316795" lon="121.443321" AreaID="1001408">
+<Value>
+<Temp>24</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>4</WS>
+<WD>241</WD>
+</Value>
+</Area>
+<Area lat="23.103786" lon="121.168579" AreaID="1001412">
+<Value>
+<Temp>21</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>268</WD>
+</Value>
+</Area>
+<Area lat="23.124023" lon="121.206955" AreaID="1001406">
+<Value>
+<Temp>23</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>3</WS>
+<WD>259</WD>
+</Value>
+</Area>
+<Area lat="23.102020" lon="121.371613" AreaID="1001402">
+<Value>
+<Temp>23</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>228</WD>
+</Value>
+</Area>
+<Area lat="23.049215" lon="121.155014" AreaID="1001403">
+<Value>
+<Temp>22</Temp>
+<RH>71</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>263</WD>
+</Value>
+</Area>
+<Area lat="22.970526" lon="121.294647" AreaID="1001407">
+<Value>
+<Temp>23</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>217</WD>
+</Value>
+</Area>
+<Area lat="22.916271" lon="121.128052" AreaID="1001405">
+<Value>
+<Temp>22</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>263</WD>
+</Value>
+</Area>
+<Area lat="22.904123" lon="121.077644" AreaID="1001413">
+<Value>
+<Temp>23</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>275</WD>
+</Value>
+</Area>
+<Area lat="22.784340" lon="121.078957" AreaID="1001404">
+<Value>
+<Temp>22</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>281</WD>
+</Value>
+</Area>
+<Area lat="22.756487" lon="121.138672" AreaID="1001401">
+<Value>
+<Temp>23</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>275</WD>
+</Value>
+</Area>
+<Area lat="22.617287" lon="120.999557" AreaID="1001409">
+<Value>
+<Temp>21</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>244</WD>
+</Value>
+</Area>
+<Area lat="22.670721" lon="121.460480" AreaID="1001411">
+<Value>
+<Temp>20</Temp>
+<RH>87</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>201</WD>
+</Value>
+</Area>
+<Area lat="22.298588" lon="120.874916" AreaID="1001415">
+<Value>
+<Temp>23</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>4</WS>
+<WD>220</WD>
+</Value>
+</Area>
+<Area lat="22.342278" lon="120.882042" AreaID="1001410">
+<Value>
+<Temp>22</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>80</Cloud>
+<WS>4</WS>
+<WD>220</WD>
+</Value>
+</Area>
+<Area lat="22.058756" lon="121.501938" AreaID="1001416">
+<Value>
+<Temp>23</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>7</WS>
+<WD>287</WD>
+</Value>
+</Area>
+<Area lat="22.596478" lon="120.952782" AreaID="1001414">
+<Value>
+<Temp>20</Temp>
+<RH>72</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>3</WS>
+<WD>257</WD>
+</Value>
+</Area>
+<Area lat="23.668240" lon="119.590500" AreaID="1001603">
+<Value>
+<Temp>19</Temp>
+<RH>78</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>5</WS>
+<WD>208</WD>
+</Value>
+</Area>
+<Area lat="23.602686" lon="119.498787" AreaID="1001604">
+<Value>
+<Temp>19</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>4</WS>
+<WD>215</WD>
+</Value>
+</Area>
+<Area lat="23.585360" lon="119.644585" AreaID="1001602">
+<Value>
+<Temp>19</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>5</WS>
+<WD>200</WD>
+</Value>
+</Area>
+<Area lat="23.567554" lon="119.570663" AreaID="1001601">
+<Value>
+<Temp>19</Temp>
+<RH>77</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>4</WS>
+<WD>207</WD>
+</Value>
+</Area>
+<Area lat="23.359118" lon="119.492355" AreaID="1001605">
+<Value>
+<Temp>20</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>4</WS>
+<WD>209</WD>
+</Value>
+</Area>
+<Area lat="23.208433" lon="119.416527" AreaID="1001606">
+<Value>
+<Temp>21</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>4</WS>
+<WD>232</WD>
+</Value>
+</Area>
+<Area lat="24.434364" lon="118.312424" AreaID="902001">
+<Value>
+<Temp>18</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>46</WD>
+</Value>
+</Area>
+<Area lat="24.443039" lon="118.408913" AreaID="902003">
+<Value>
+<Temp>19</Temp>
+<RH>69</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>1</WS>
+<WD>278</WD>
+</Value>
+</Area>
+<Area lat="24.490562" lon="118.404953" AreaID="902002">
+<Value>
+<Temp>19</Temp>
+<RH>70</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>1</WS>
+<WD>276</WD>
+</Value>
+</Area>
+<Area lat="24.452557" lon="118.326698" AreaID="902004">
+<Value>
+<Temp>18</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>46</WD>
+</Value>
+</Area>
+<Area lat="24.431150" lon="118.236336" AreaID="902005">
+<Value>
+<Temp>18</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>3</WS>
+<WD>89</WD>
+</Value>
+</Area>
+<Area lat="24.992846" lon="119.445976" AreaID="902006">
+<Value>
+<Temp>20</Temp>
+<RH>73</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>3</WS>
+<WD>200</WD>
+</Value>
+</Area>
+<Area lat="26.154203" lon="119.929306" AreaID="900701">
+<Value>
+<Temp>15</Temp>
+<RH>75</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>191</WD>
+</Value>
+</Area>
+<Area lat="26.226921" lon="119.988518" AreaID="900702">
+<Value>
+<Temp>15</Temp>
+<RH>76</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>172</WD>
+</Value>
+</Area>
+<Area lat="25.973551" lon="119.924583" AreaID="900703">
+<Value>
+<Temp>17</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>90</Cloud>
+<WS>2</WS>
+<WD>183</WD>
+</Value>
+</Area>
+<Area lat="26.369152" lon="120.481583" AreaID="900704">
+<Value>
+<Temp>18</Temp>
+<RH>74</RH>
+<Rain>0.0</Rain>
+<Cloud>100</Cloud>
+<WS>2</WS>
+<WD>206</WD>
+</Value>
+</Area>
+</AnalysisData>
+</GTTown368Data>

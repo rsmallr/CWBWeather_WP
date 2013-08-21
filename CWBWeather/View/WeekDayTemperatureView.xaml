@@ -1,0 +1,110 @@
+﻿<UserControl x:Class="CWBWeather.View.WeekDayTemperatureView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0">
+            <TextBlock x:Name="ForcastAreaText" Text="{Binding SelectedCity.Name}" Style="{StaticResource PhoneTextNormalStyle}" TextAlignment="Center" />
+            <TextBlock x:Name="PageTitle" Text="溫度" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 其他內容置於此-->
+        <vc:Chart Grid.Row="1" x:Name="WeekDayTemperatureChart" xmlns:vc="clr-namespace:Visifire.Charts;assembly=SLWpVisifire.Charts"
+                              ScrollingEnabled="false" BorderThickness="0" IndicatorEnabled="True" Background="White">
+            <!--<vc:Chart.AxesX>
+                            <vc:Axis IntervalType="Days" ValueFormatString="M/dd HH:mm"/>
+                        </vc:Chart.AxesX>-->
+            <vc:Chart.AxesX>
+                <vc:Axis ValueFormatString="M/d" IntervalType="Days" Interval="1">
+                    <vc:Axis.AxisLabels>
+                        <vc:AxisLabels Angle="0" Rows="1" FontSize="14"></vc:AxisLabels>
+                    </vc:Axis.AxisLabels>
+                </vc:Axis>
+            </vc:Chart.AxesX>
+
+            <!--<vc:Chart.Series>
+                <vc:DataSeries RenderAs="Line"  MarkerSize="20" ShadowEnabled="False"
+                                           XValueType="DateTime"  XValueFormatString="M/d HH:mm" 
+                                           ToolTipText="#AxisXLabel ~ #YValue" LineThickness="5">
+                </vc:DataSeries>
+            </vc:Chart.Series>-->
+
+            <vc:Chart.Series>
+                <vc:DataSeries RenderAs="Line"  MarkerSize="20" ShadowEnabled="False"
+                                           XValueType="DateTime"  XValueFormatString="M/d HH:mm" 
+                                           ToolTipText="#AxisXLabel ~ #YValue" LineThickness="5"
+                                           DataSource="{Binding WeekDayTemperatureItemsSource}">
+                    <vc:DataSeries.DataMappings>
+                        <vc:DataMapping MemberName="XValue" Path="Time"></vc:DataMapping>
+                        <vc:DataMapping MemberName="YValue" Path="Temperature"></vc:DataMapping>
+                    </vc:DataSeries.DataMappings>
+                    
+                    <!--<vc:DataSeries.DataPoints>
+                        <vc:DataPoint XValue="Jan 1 2001" YValue="10"/>
+                        <vc:DataPoint XValue="Jan 2 2001" YValue="26"/>
+                        <vc:DataPoint XValue="Jan 3 2001" YValue="50"/>
+                        <vc:DataPoint XValue="Jan 4 2001" YValue="30"/>
+                        <vc:DataPoint XValue="Jan 5 2001" YValue="20"/>
+                        <vc:DataPoint XValue="Jan 6 2001" YValue="20"/>
+                        <vc:DataPoint XValue="Jan 7 2001" YValue="26"/>
+                        <vc:DataPoint XValue="Jan 8 2001" YValue="20"/>
+                        <vc:DataPoint XValue="Jan 10 2001" YValue="28"/>
+                        <vc:DataPoint XValue="Jan 11 2001" YValue="36"/>
+                        <vc:DataPoint XValue="Jan 12 2001" YValue="20"/>
+                    </vc:DataSeries.DataPoints>-->
+                </vc:DataSeries>
+            </vc:Chart.Series>
+
+            <!--<vc:Chart.Series>
+                            <vc:DataSeries RenderAs="Spline" MarkerSize="20" ShadowEnabled="False" XValueType="DateTime"  XValueFormatString="MM/dd HH:mm">
+                                <vc:DataSeries.DataPoints>
+                                    <vc:DataPoint XValue="2012-05-20T18:00+08:00" YValue="1"/>
+                                    <vc:DataPoint XValue="2012-05-21T18:00+08:00" YValue="2"/>
+                                </vc:DataSeries.DataPoints>
+                            </vc:DataSeries>
+                        </vc:Chart.Series>-->
+
+            <!--<vc:Chart.Series>
+                            <vc:DataSeries  RenderAs="CandleStick">
+                                <vc:DataSeries.DataPoints>
+                                    <vc:DataPoint XValue="Jan 1 2001" YValues="25,20,32,16"/>
+                                    <vc:DataPoint XValue="Jan 2 2001" YValues="26,40,42,18"/>
+                                    <vc:DataPoint XValue="Jan 3 2001" YValues="50,40,54,38"/>
+                                    <vc:DataPoint XValue="Jan 4 2001" YValues="30,38,40,20"/>
+                                    <vc:DataPoint XValue="Jan 5 2001" YValues="20,10,30,5"/>
+                                    <vc:DataPoint XValue="Jan 6 2001" YValues="20,33,40,10"/>
+                                    <vc:DataPoint XValue="Jan 7 2001" YValues="26,16,30,10"/>
+                                    <vc:DataPoint XValue="Jan 8 2001" YValues="20,40,50,10"/>
+                                    <vc:DataPoint XValue="Jan 10 2001" YValues="28,18,40,12"/>
+                                    <vc:DataPoint XValue="Jan 11 2001" YValues="36,30,44,28"/>
+                                    <vc:DataPoint XValue="Jan 12 2001" YValues="20,34,40,18"/>
+                                </vc:DataSeries.DataPoints>
+                            </vc:DataSeries>
+                        </vc:Chart.Series>-->
+        </vc:Chart>
+        <!--<chartingToolkit:Chart Title="Chart Title">
+                        <chartingToolkit:Chart.DataContext>
+                            <PointCollection>
+                                <Point>1,10</Point>
+                                <Point>2,20</Point>
+                                <Point>3,30</Point>
+                                <Point>4,40</Point>
+                            </PointCollection>
+                        </chartingToolkit:Chart.DataContext>
+                        <chartingToolkit:LineSeries DependentValuePath="X" IndependentValuePath="Y" ItemsSource="{Binding}"/>
+                    </chartingToolkit:Chart>-->
+    </Grid>
+</UserControl>

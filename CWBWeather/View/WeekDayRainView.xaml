@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="CWBWeather.View.WeekDayRainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="{Binding SelectedCity.Name}" Style="{StaticResource PhoneTextNormalStyle}" TextAlignment="Center" />
+            <TextBlock Text="降雨機率" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 其他內容置於此-->
+        <ListBox Grid.Row="1" ItemsSource="{Binding WeekDayRainItemsSource}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Name="Time" Text="{Binding Key}" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                        <TextBlock x:Name="Rain" Text="{Binding Value}" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</UserControl>

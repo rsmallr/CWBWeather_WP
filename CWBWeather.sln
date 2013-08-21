@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWBWeather", "CWBWeather\CWBWeather.csproj", "{8606730C-9A85-4313-8597-27F117EC0E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherScheduledTaskAgent", "WeatherScheduledTaskAgent\WeatherScheduledTaskAgent.csproj", "{70971C49-467A-4C8D-A29B-1689AFA448FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast", "WeatherForecast\WeatherForecast.csproj", "{FB8196B9-EAC4-4944-926E-17E0A1DB4580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8606730C-9A85-4313-8597-27F117EC0E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8606730C-9A85-4313-8597-27F117EC0E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8606730C-9A85-4313-8597-27F117EC0E13}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8606730C-9A85-4313-8597-27F117EC0E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8606730C-9A85-4313-8597-27F117EC0E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8606730C-9A85-4313-8597-27F117EC0E13}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{70971C49-467A-4C8D-A29B-1689AFA448FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70971C49-467A-4C8D-A29B-1689AFA448FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70971C49-467A-4C8D-A29B-1689AFA448FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70971C49-467A-4C8D-A29B-1689AFA448FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8196B9-EAC4-4944-926E-17E0A1DB4580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8196B9-EAC4-4944-926E-17E0A1DB4580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8196B9-EAC4-4944-926E-17E0A1DB4580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8196B9-EAC4-4944-926E-17E0A1DB4580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

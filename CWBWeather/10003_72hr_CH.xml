@@ -1,0 +1,4384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSeventyTwoHrForecast domain="TWHR">
+  <BulletinInformation>
+    <BulletinName>鄉鎮72小時預報</BulletinName>
+    <Copyright>本檔案的內容，包括但不限於所有文本、平面圖像、圖畫、圖片、照片以及數據或其他資料的匯編，均受版權保障。中央氣象局是本檔案內所有版權作品的擁有人，除非預先得到中央氣象局的書面授權，否則嚴禁複製、改編、分發、發布或向公眾提供該等版權作品。</Copyright>
+    <Disclaimer>中央氣象局（包括其僱員及代理人）對於本檔案所載資料的準確性、可用性、完整性或效用，概不作出明確或暗示的保證、聲明或陳述；在法律許可的範圍內，對於提供或使用這些資料而可能直接或間接引致任何損失、損壞或傷害（包括死亡），亦不負任何法律承擔或責任（包括疏忽責任）。</Disclaimer>
+    <BulletinProvider>中央氣象局</BulletinProvider>
+    <Remarks>歡迎向中央氣象局申請授權發布或向公眾提供本檔案的內容。如有任何查詢，請電郵(webqry@cwb.gov.tw)或傳真(02-23491212)至預報中心。</Remarks>
+    <Lang>zh_TW</Lang>
+    <Version>0.5-beta</Version>
+  </BulletinInformation>
+  <ForecastData>
+    <IssueTime>2012-03-29T17:00+08:00</IssueTime>
+    <Metadata>
+      <Time slice="12">
+        <FcstTime name="今晚至明晨">2012-03-29T18:00+08:00</FcstTime>
+        <FcstTime name="星期五白天">2012-03-30T06:00+08:00</FcstTime>
+        <FcstTime name="星期五晚上">2012-03-30T18:00+08:00</FcstTime>
+        <FcstTime name="星期六白天">2012-03-31T06:00+08:00</FcstTime>
+        <FcstTime name="星期六晚上">2012-03-31T18:00+08:00</FcstTime>
+        <FcstTime name="星期日白天">2012-04-01T06:00+08:00</FcstTime>
+      </Time>
+      <Time slice="3">
+        <FcstTime>2012-03-29T18:00+08:00</FcstTime>
+        <FcstTime>2012-03-29T21:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T00:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T03:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T06:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T09:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T12:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T15:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T18:00+08:00</FcstTime>
+        <FcstTime>2012-03-30T21:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T00:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T03:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T06:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T09:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T12:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T15:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T18:00+08:00</FcstTime>
+        <FcstTime>2012-03-31T21:00+08:00</FcstTime>
+        <FcstTime>2012-04-01T00:00+08:00</FcstTime>
+        <FcstTime>2012-04-01T03:00+08:00</FcstTime>
+        <FcstTime>2012-04-01T06:00+08:00</FcstTime>
+        <FcstTime>2012-04-01T09:00+08:00</FcstTime>
+        <FcstTime>2012-04-01T12:00+08:00</FcstTime>
+        <FcstTime>2012-04-01T15:00+08:00</FcstTime>
+      </Time>
+      <WeatherElement>
+        <MinCI timeSlice="12" unit="百分比" explanation="低舒適度"/>
+        <CI timeSlice="3" unit="文字描述" explanation="舒適度描述"/>
+        <Temperature timeSlice="3" unit="攝氏" explanation="溫度"/>
+        <MinT timeSlice="12" unit="攝氏" explanation="低溫"/>
+        <WindLevel timeSlice="3" unit="蒲福風級" explanation="風力"/>
+        <PoP timeSlice="12" unit="百分比" explanation="降雨機率"/>
+        <WindDir timeSlice="3" unit="文字描述" explanation="風向"/>
+        <WindSpeed timeSlice="3" unit="公尺每秒" explanation="風速"/>
+        <MaxT timeSlice="12" unit="攝氏" explanation="高溫"/>
+        <MaxCI timeSlice="12" unit="百分比" explanation="高舒適度"/>
+        <RH timeSlice="3" unit="百分比" explanation="相對溼度"/>
+        <WeatherDes timeSlice="3" unit="文字描述" explanation="天氣描述"/>
+        <Wx timeSlice="3" unit="文字描述" explanation="天氣狀況"/>
+      </WeatherElement>
+    </Metadata>
+    <County enName="Taoyuan County" chName="桃園縣" CountyID="10003">
+      <Area enName="Xinwu Township" chName="新屋鄉" lat="24.974325" lon="121.097321" AreaID="1000311">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>73</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為73%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>84</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>90</RH>
+          <Td>17.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>90</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>86</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>27</MaxT>
+          <MinT>27</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>24</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>73</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為73%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>59</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏27度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>26</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>66</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏26度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>75</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為75%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>84</RH>
+          <Td>17.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒3公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>81</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 30%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒3公尺)。 相對濕度為81%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>82</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速2至3級(每秒5公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>90</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>90</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>76</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒9公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>64</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒9公尺)。 相對濕度為64%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>54</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 東北風 平均風速4至5級(每秒9公尺)。 相對濕度為54%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>54</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為54%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速4至5級(每秒8公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>19</MaxT>
+          <MinT>19</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>18</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>8.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速1至2級(每秒3公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Pingzhen City" chName="平鎮市" lat="24.947382" lon="121.209999" AreaID="1000310">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>70</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為70%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>79</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為79%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>88</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>83</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>27</MaxT>
+          <MinT>27</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>24</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>71</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏27度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>64</RH>
+          <Td>20.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏27度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為64%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>87</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏21度。 舒適。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>83</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 40%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒3公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>82</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>78</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為78%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>66</RH>
+          <Td>9.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>9.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速1至2級(每秒3公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Guanyin Township" chName="觀音鄉" lat="25.038202" lon="121.073654" AreaID="1000312">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>74</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏21度。 舒適。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為74%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>21</MaxT>
+          <MinT>21</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>20</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>83</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>90</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>92</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為92%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>89</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為89%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>26</MaxT>
+          <MinT>26</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>24</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>75</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 舒適。 西北風 平均風速1至2級(每秒2公尺)。 相對濕度為75%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>26</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>64</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏26度。 舒適。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為64%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>25</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>69</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏25度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏22度。 舒適。 東南風 平均風速1至2級(每秒3公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>83</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒3公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>82</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速2至3級(每秒4公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>82</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 西北風 平均風速3至4級(每秒6公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>88</RH>
+          <Td>14.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏16度。 寒冷。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>87</RH>
+          <Td>14.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 30%。 溫度攝氏16度。 寒冷。 東北風 平均風速4至5級(每秒9公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>10</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>76</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒10公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>10</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>65</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒10公尺)。 相對濕度為65%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>10</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速4至5級(每秒10公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>12</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>10</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速4至5級(每秒10公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>10</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速4至5級(每秒10公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>10</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速4至5級(每秒10公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>12</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>8.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速4至5級(每秒8公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Fuxing Township" chName="復興鄉" lat="24.820341" lon="121.343407" AreaID="1000313">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>74</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏22度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為74%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>84</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 10%。 溫度攝氏20度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>83</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>76</RH>
+          <Td>12.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>26</MaxT>
+          <MinT>26</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>80</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 10%。 溫度攝氏21度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>26</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>80</RH>
+          <Td>23.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 10%。 溫度攝氏26度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>26</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>80</RH>
+          <Td>23.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏26度。 舒適。 西北風 平均風速1至2級(每秒2公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>84</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏22度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>60</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>93</RH>
+          <Td>18.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為93%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>87</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>86</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 60%。 溫度攝氏17度。 稍有寒意。 西北風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>94</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速1至2級(每秒3公尺)。 相對濕度為94%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>16</MaxT>
+          <MinT>16</MinT>
+          <MaxCI>15</MaxCI>
+          <MinCI>16</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>97</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速2至3級(每秒4公尺)。 相對濕度為97%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>88</RH>
+          <Td>13.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏15度。 寒冷。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>79</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 30%。 溫度攝氏15度。 寒冷。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為79%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>14</MaxT>
+          <MinT>14</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>14</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>68</RH>
+          <Td>7.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為68%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>69</RH>
+          <Td>8.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>69</RH>
+          <Td>8.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>21</MaxT>
+          <MinT>21</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>20</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>68</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為68%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>64</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 稍有寒意。 偏東風 平均風速1至2級(每秒3公尺)。 相對濕度為64%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>66</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速1至2級(每秒2公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Taoyuan City" chName="桃園市" lat="24.995720" lon="121.293449" AreaID="1000301">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>67</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為67%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>72</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為72%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>82</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>81</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為81%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>28</MaxT>
+          <MinT>28</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>70</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏23度。 舒適。 偏北風 平均風速0至1級(每秒1公尺)。 相對濕度為70%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏28度。 舒適。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>63</RH>
+          <Td>20.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏28度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為63%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>24</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 10%。 溫度攝氏24度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>60</PoP>
+          <MaxT>24</MaxT>
+          <MinT>24</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>23</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>88</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 10%。 溫度攝氏21度。 舒適。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>85</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 60%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為85%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>84</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速2至3級(每秒4公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>79</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為79%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>66</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>8.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Longtan Township" chName="龍潭鄉" lat="24.865807" lon="121.208336" AreaID="1000309">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>74</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏22度。 舒適。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為74%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>86</RH>
+          <Td>17.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 10%。 溫度攝氏20度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>88</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>79</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為79%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>27</MaxT>
+          <MinT>27</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>24</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>71</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>58</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏27度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>65</RH>
+          <Td>20.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏27度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為65%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>78</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為78%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>88</RH>
+          <Td>18.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 40%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>82</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>92</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏16度。 寒冷。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為92%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>16</MaxT>
+          <MinT>16</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>16</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>93</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為93%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>81</RH>
+          <Td>13.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為81%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>69</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>59</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>61</RH>
+          <Td>6.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為61%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>61</RH>
+          <Td>9.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為61%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速1至2級(每秒2公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>59</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速1至2級(每秒2公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Guishan Township" chName="龜山鄉" lat="24.994329" lon="121.329689" AreaID="1000307">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>66</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>72</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為72%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>82</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>80</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>28</MaxT>
+          <MinT>28</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>69</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏23度。 舒適。 偏北風 平均風速0至1級(每秒1公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏28度。 舒適。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>63</RH>
+          <Td>20.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏28度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為63%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>24</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>77</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 10%。 溫度攝氏24度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為77%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>60</PoP>
+          <MaxT>24</MaxT>
+          <MinT>24</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>23</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>89</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 10%。 溫度攝氏21度。 舒適。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為89%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>86</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 60%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>84</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>92</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速2至3級(每秒4公尺)。 相對濕度為92%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>79</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為79%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>67</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為67%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>19</MaxT>
+          <MinT>19</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>18</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>8.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Daxi Township" chName="大溪鎮" lat="24.882288" lon="121.278915" AreaID="1000303">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>71</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏23度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>81</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 10%。 溫度攝氏21度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為81%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>85</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為85%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>84</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>78</RH>
+          <Td>12.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為78%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>28</MaxT>
+          <MinT>28</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>26</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>70</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為70%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>58</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 10%。 溫度攝氏28度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>80</RH>
+          <Td>24.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏28度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>79</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為79%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>60</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>89</RH>
+          <Td>18.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為89%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>84</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>93</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速2至3級(每秒4公尺)。 相對濕度為93%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>16</MaxT>
+          <MinT>16</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>16</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>94</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為94%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>71</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>59</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>61</RH>
+          <Td>6.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為61%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>62</RH>
+          <Td>6.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為62%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>62</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為62%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>59</RH>
+          <Td>12.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速1至2級(每秒3公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>60</RH>
+          <Td>12.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速1至2級(每秒3公尺)。 相對濕度為60%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Yangmei City" chName="楊梅市" lat="24.909367" lon="121.137642" AreaID="1000304">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>74</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為74%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>87</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>90</RH>
+          <Td>17.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>88</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>83</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>27</MaxT>
+          <MinT>27</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>24</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>71</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏27度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>26</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>65</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏26度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為65%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>75</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為75%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>18.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>82</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 30%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒3公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>81</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為81%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>78</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為78%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>65</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為65%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏16度。 寒冷。 偏東風 平均風速4至5級(每秒8公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>16</MaxT>
+          <MinT>16</MinT>
+          <MaxCI>14</MaxCI>
+          <MinCI>16</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速4至5級(每秒8公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>54</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏14度。 寒冷。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為54%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>6.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>14</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>9.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速1至2級(每秒3公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速1至2級(每秒2公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Zhongli City" chName="中壢市" lat="24.967495" lon="121.216919" AreaID="1000302">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>68</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為68%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>75</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為75%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>84</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>88</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>83</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>28</MaxT>
+          <MinT>28</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>71</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏23度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏28度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>64</RH>
+          <Td>21.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏28度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為64%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>24</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏24度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>24</MaxT>
+          <MinT>24</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>23</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>87</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏21度。 舒適。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>83</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 40%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒3公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>82</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>16.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>78</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為78%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>66</RH>
+          <Td>9.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>4.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>20</MaxT>
+          <MinT>20</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>19</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>8.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>11.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Dayuan Township" chName="大園鄉" lat="25.065701" lon="121.187248" AreaID="1000306">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>70</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏22度。 舒適。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為70%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>22</MaxT>
+          <MinT>22</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>85</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為85%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>91</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>88</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>27</MaxT>
+          <MinT>27</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>74</RH>
+          <Td>17.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為74%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>61</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏27度。 舒適。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為61%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>27</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>67</RH>
+          <Td>21.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏27度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為67%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>18.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒3公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>85</RH>
+          <Td>17.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒3公尺)。 相對濕度為85%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速2至3級(每秒4公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏17度。 稍有寒意。 西北風 平均風速2至3級(每秒5公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>88</RH>
+          <Td>14.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 30%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為88%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>30</PoP>
+          <MaxT>17</MaxT>
+          <MinT>17</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>17</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>87</RH>
+          <Td>14.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 30%。 溫度攝氏16度。 寒冷。 東北風 平均風速4至5級(每秒8公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>76</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒9公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>17</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>65</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏17度。 稍有寒意。 東北風 平均風速4至5級(每秒9公尺)。 相對濕度為65%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>12</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>54</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為54%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>9</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速4至5級(每秒9公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>19</MaxT>
+          <MinT>19</MinT>
+          <MaxCI>12</MaxCI>
+          <MinCI>18</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>8</WindSpeed>
+          <WindLevel>5</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>7.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速4至5級(每秒8公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Luzhu Township" chName="蘆竹鄉" lat="25.048746" lon="121.287056" AreaID="1000305">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>66</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為66%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>71</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>82</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為82%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>87</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 東南風 平均風速0至1級(每秒1公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>28</MaxT>
+          <MinT>28</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>71</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速0至1級(每秒1公尺)。 相對濕度為71%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏28度。 舒適。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>63</RH>
+          <Td>21.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏28度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為63%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>76</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為76%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>87</RH>
+          <Td>18.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為87%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>84</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 40%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速1至2級(每秒3公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>84</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速2至3級(每秒4公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>91</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速2至3級(每秒5公尺)。 相對濕度為91%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>16</MaxT>
+          <MinT>16</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>16</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>90</RH>
+          <Td>14.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為90%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>77</RH>
+          <Td>12.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為77%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>65</RH>
+          <Td>9.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為65%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>14</MaxT>
+          <MinT>14</MinT>
+          <MaxCI>12</MaxCI>
+          <MinCI>14</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>54</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為54%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>54</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為54%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>12</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>55</RH>
+          <Td>3.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏12度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為55%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>19</MaxT>
+          <MinT>19</MinT>
+          <MaxCI>12</MaxCI>
+          <MinCI>18</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>7.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>56</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為56%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+      </Area>
+      <Area enName="Bade City" chName="八德市" lat="24.930719" lon="121.276398" AreaID="1000308">
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>69</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>18</MaxCI>
+          <MinCI>21</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>21</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>77</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏21度。 稍有寒意。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為77%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>84</RH>
+          <Td>15.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>86</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏南風 平均風速0至1級(每秒1公尺)。 相對濕度為86%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>1</WindSpeed>
+          <WindLevel>1</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速0至1級(每秒1公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>28</MaxT>
+          <MinT>28</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>25</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>22</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="N">偏北風</WindDir>
+          <RH>70</RH>
+          <Td>16.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏22度。 舒適。 偏北風 平均風速1至2級(每秒2公尺)。 相對濕度為70%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>57</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏28度。 舒適。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>28</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="W">偏西風</WindDir>
+          <RH>64</RH>
+          <Td>21.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏28度。 舒適。 偏西風 平均風速1至2級(每秒2公尺)。 相對濕度為64%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>23</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SE">東南風</WindDir>
+          <RH>78</RH>
+          <Td>19.0</Td>
+          <CI>舒適</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏23度。 舒適。 東南風 平均風速1至2級(每秒2公尺)。 相對濕度為78%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>60</PoP>
+          <MaxT>23</MaxT>
+          <MinT>23</MinT>
+          <MaxCI>17</MaxCI>
+          <MinCI>22</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>20</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="S">偏南風</WindDir>
+          <RH>89</RH>
+          <Td>18.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏20度。 稍有寒意。 偏南風 平均風速1至2級(每秒2公尺)。 相對濕度為89%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>2</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="SW">西南風</WindDir>
+          <RH>84</RH>
+          <Td>14.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>陰天。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西南風 平均風速1至2級(每秒2公尺)。 相對濕度為84%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>3</WindSpeed>
+          <WindLevel>2</WindLevel>
+          <WindDir abbre="NW">西北風</WindDir>
+          <RH>83</RH>
+          <Td>13.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 60%。 溫度攝氏18度。 稍有寒意。 西北風 平均風速1至2級(每秒3公尺)。 相對濕度為83%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>92</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速2至3級(每秒4公尺)。 相對濕度為92%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>40</PoP>
+          <MaxT>16</MaxT>
+          <MinT>16</MinT>
+          <MaxCI>16</MaxCI>
+          <MinCI>16</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>短暫陣雨</Wx>
+          <WeatherIcon>Weather26.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>93</RH>
+          <Td>15.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>短暫陣雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒6公尺)。 相對濕度為93%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="NE">東北風</WindDir>
+          <RH>81</RH>
+          <Td>13.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 東北風 平均風速3至4級(每秒7公尺)。 相對濕度為81%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>陰天</Wx>
+          <WeatherIcon>Weather03.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>7</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>69</RH>
+          <Td>10.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>陰天。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速3至4級(每秒7公尺)。 相對濕度為69%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>15</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏15度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>10</PoP>
+          <MaxT>15</MaxT>
+          <MinT>15</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>15</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>14</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>80</RH>
+          <Td>11.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 10%。 溫度攝氏14度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為80%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>57</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為57%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>59</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>13</Temperature>
+          <WindSpeed>6</WindSpeed>
+          <WindLevel>4</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>60</RH>
+          <Td>5.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏13度。 寒冷。 偏東風 平均風速3至4級(每秒6公尺)。 相對濕度為60%。</WeatherDes>
+        </Value>
+        <Value layout="12">
+          <PoP>0</PoP>
+          <MaxT>19</MaxT>
+          <MinT>19</MinT>
+          <MaxCI>13</MaxCI>
+          <MinCI>18</MinCI>
+        </Value>
+        <Value layout="3">
+          <Wx>多雲</Wx>
+          <WeatherIcon>Weather02.bmp</WeatherIcon>
+          <Temperature>16</Temperature>
+          <WindSpeed>5</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>60</RH>
+          <Td>9.0</Td>
+          <CI>寒冷</CI>
+          <WeatherDes>多雲。 降雨機率 0%。 溫度攝氏16度。 寒冷。 偏東風 平均風速2至3級(每秒5公尺)。 相對濕度為60%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>19</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>58</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏19度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為58%。</WeatherDes>
+        </Value>
+        <Value layout="3">
+          <Wx>晴天</Wx>
+          <WeatherIcon>Weather01.bmp</WeatherIcon>
+          <Temperature>18</Temperature>
+          <WindSpeed>4</WindSpeed>
+          <WindLevel>3</WindLevel>
+          <WindDir abbre="E">偏東風</WindDir>
+          <RH>59</RH>
+          <Td>10.0</Td>
+          <CI>稍有寒意</CI>
+          <WeatherDes>晴天。 降雨機率 0%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速2至3級(每秒4公尺)。 相對濕度為59%。</WeatherDes>
+        </Value>
+      </Area>
+    </County>
+  </ForecastData>
+</TownSeventyTwoHrForecast>

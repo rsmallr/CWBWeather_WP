@@ -1,0 +1,68 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="CWBWeather.View.SelectTownPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:CWBWeather"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    local:TiltEffect.IsTiltEnabled="True">
+
+    <!--LayoutRoot 是放置所有頁面的根資料格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding SelectedCity.Name}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="選擇區域" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+        </StackPanel>
+
+        <!--ContentPanel - 其他內容置於此-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox Name="TownList" ItemsSource="{Binding ListItemsSource}" SelectionChanged="TownListBox_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+
+                        <Grid Margin="5">
+
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Width="390" Margin="5,0,0,0">
+
+                                <!-- 使用Data binding並配合上述定義的Style: PhoneTextBlockBaseWithoudForeground -->
+
+                                <TextBlock Text="{Binding Name}" 
+                            Style="{StaticResource listBoxTextStyle}" 
+                            TextWrapping="Wrap"
+                            FontFamily="/CWBWeather;component/Fonts/Fonts.zip#cwTeX Q Yuan" />
+                            </StackPanel>
+
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+ 
+    <!--顯示 ApplicationBar 使用方式的程式碼範例-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="按鈕 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="按鈕 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="功能表項目 1"/>
+                <shell:ApplicationBarMenuItem Text="功能表項目 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

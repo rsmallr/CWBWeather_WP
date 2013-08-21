@@ -1,0 +1,24 @@
+﻿using System.Collections.Generic;
+namespace CWBWeather
+{
+    public class CityTown
+    {
+        public List<City> Cities { get; set; }
+    }
+
+    public class City
+    {
+        public string COUN_ID { get; set; }
+
+        public string COUN_NA { get; set; }
+
+        public List<Town> Towns { get; set; }
+    }
+
+    public class Town
+    {
+        public string TOWN_ID { get; set; }
+
+        public string TOWN_NA { get; set; }
+    }
+}

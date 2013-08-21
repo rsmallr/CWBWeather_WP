@@ -1,0 +1,28 @@
+﻿<Application 
+    x:Class="CWBWeather.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone">
+
+    <!--應用程式資源-->
+    <Application.Resources>
+        <DataTemplate x:Key="SmallPanoramaTitle">
+            <ContentPresenter>
+                <TextBlock Text="{Binding}" FontSize="50" Margin="0,70,0,0" />
+            </ContentPresenter>
+        </DataTemplate>
+
+        <Style x:Key="listBoxTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeExtraLarge}" />
+        </Style>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--必要物件，用來處理應用程式的存留期事件-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
